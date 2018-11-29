@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="flipkart-suite">
+
+	<!-- <listeners> <listener class-name="customListner.Listener"></listener> 
+		<listener class-name="customListner.RetryListener"></listener> </listeners> -->
+	<test name="flipHomePageTest">
+
+		<groups>
+			<run>
+				<include name="first" />
+				<include name="second" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="flipkartnov.TestngFramework"></class>
+
+		</classes>
+	</test>
+
+</suite>
