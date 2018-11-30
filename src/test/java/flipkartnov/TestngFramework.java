@@ -161,4 +161,12 @@ public void sixthtest(){
 	System.out.println("sixth test is executed");
 }
 	
+@Test
+
+public void seventhst(){
+	
+	
+	System.out.println("sixth test is executed");
+}
+
 }
