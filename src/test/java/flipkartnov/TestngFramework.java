@@ -150,4 +150,12 @@ public void thirdtest(){
 		System.out.println("fifth test is executed");
 	}
 	
+@Test
+
+public void sixthtest(){
+	
+	
+	System.out.println("sixth test is executed");
+}
+
 }
