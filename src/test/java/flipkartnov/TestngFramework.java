@@ -161,4 +161,13 @@ public void sixthtest(){
 	System.out.println("sixth test is executed");
 }
 	
+
+@Test(groups="first")
+
+public void seventhtest(){
+	
+	
+	System.out.println("seventh test is executed");
+}
+
 }
