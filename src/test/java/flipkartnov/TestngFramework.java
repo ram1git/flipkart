@@ -125,6 +125,14 @@ public class TestngFramework {
 		
 		System.out.println("second test is executed");
 	}
+
+	@Test
+public void thirdtest(){
+		
+		
+		System.out.println("third test is executed");
+	}
+	
 	
 	
 }
