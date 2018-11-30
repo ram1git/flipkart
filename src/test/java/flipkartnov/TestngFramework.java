@@ -18,6 +18,8 @@ public class TestngFramework {
 	public void before() {
 
 		System.out.println("before test is printed");
+		
+		System.out.println("init method");
 	}
 
 	@AfterTest
@@ -126,7 +128,7 @@ public class TestngFramework {
 		System.out.println("second test is executed");
 	}
 
-	@Test
+	@Test(groups="first")
 public void thirdtest(){
 		
 		
@@ -134,7 +136,7 @@ public void thirdtest(){
 	}
 	
 
-	@Test
+	@Test(groups="second")
 	
 	public void fourthtest(){
 		
@@ -142,7 +144,7 @@ public void thirdtest(){
 		System.out.println("fourth test is executed");
 	}
 	
-@Test
+@Test(groups="first")
 	
 	public void fifthtest(){
 		
@@ -151,7 +153,7 @@ public void thirdtest(){
 	}
 
 
-@Test
+@Test(groups="first")
 
 public void sixthtest(){
 	
