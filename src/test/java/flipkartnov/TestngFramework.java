@@ -163,7 +163,7 @@ public void sixthtest(){
 	
 @Test
 
-public void sixthtest(){
+public void seventhst(){
 	
 	
 	System.out.println("sixth test is executed");
