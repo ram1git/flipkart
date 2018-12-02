@@ -166,7 +166,16 @@ public void sixthtest(){
 public void seventhst(){
 	
 	
-	System.out.println("sixth test is executed");
+	System.out.println("seventh test is executed");
 }
+
+@Test
+
+public void eigththtestcase(){
+	
+	
+	System.out.println("eighthth test is executed");
+}
+
 
 }
