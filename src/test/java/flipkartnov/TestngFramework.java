@@ -161,11 +161,14 @@ public void sixthtest(){
 	System.out.println("sixth test is executed");
 }
 	
-@Test
+
+@Test(groups="second")
+
 
 public void seventhst(){
 	
 	
+
 	System.out.println("seventh test is executed");
 }
 
@@ -175,6 +178,36 @@ public void eigththtestcase(){
 	
 	
 	System.out.println("eighthth test is executed");
+
+	System.out.println("seventh test is executed");
+}
+
+@Test(groups="second")
+
+public void eightthtest(){
+	
+	
+	System.out.println("eighth test is executed");
+}
+
+@Test(groups="second")
+
+public void ninthtest(){
+	
+	
+	System.out.println("ninth test is executed");
+}
+
+
+@Test(groups="second")
+
+public void tenth(){
+	
+	
+	System.out.println("tenth test is executed");
+
+	System.out.println("sixth test is executed");
+
 }
 
 @Test
