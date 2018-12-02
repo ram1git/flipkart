@@ -161,13 +161,21 @@ public void sixthtest(){
 	System.out.println("sixth test is executed");
 }
 	
+@Test(groups="second")
 
-@Test(groups="first")
-
-public void seventhtest(){
+public void seventhst(){
 	
 	
 	System.out.println("seventh test is executed");
 }
+
+@Test(groups="second")
+
+public void eightthtest(){
+	
+	
+	System.out.println("eighth test is executed");
+}
+
 
 }
