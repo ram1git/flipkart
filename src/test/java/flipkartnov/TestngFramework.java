@@ -161,16 +161,11 @@ public void sixthtest(){
 	System.out.println("sixth test is executed");
 }
 	
-<<<<<<< HEAD
-@Test(groups="second")
-=======
-@Test
->>>>>>> a6907e233f5964c7c48f9ac7036f5145b7dad972
 
 public void seventhst(){
 	
 	
-<<<<<<< HEAD
+
 	System.out.println("seventh test is executed");
 }
 
@@ -197,9 +192,7 @@ public void tenth(){
 	
 	
 	System.out.println("tenth test is executed");
-=======
-	System.out.println("sixth test is executed");
->>>>>>> a6907e233f5964c7c48f9ac7036f5145b7dad972
+
 }
 
 }
