@@ -218,5 +218,13 @@ public void ninthcase(){
 	System.out.println("ninth test is executed");
 }
 
+@Test
+
+public void tenthcase(){
+	
+	
+	System.out.println("tenth test is executed");
+}
+
 
 }
