@@ -177,5 +177,13 @@ public void eigththtestcase(){
 	System.out.println("eighthth test is executed");
 }
 
+@Test
+
+public void ninthcase(){
+	
+	
+	System.out.println("ninth test is executed");
+}
+
 
 }
