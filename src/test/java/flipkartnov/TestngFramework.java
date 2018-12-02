@@ -226,5 +226,12 @@ public void tenthcase(){
 	System.out.println("tenth test is executed");
 }
 
+@Test
+
+public void eleventhcase(){
+	
+	
+	System.out.println("eleventh test is executed");
+}
 
 }
