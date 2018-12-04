@@ -1,6 +1,8 @@
 package flipkartnov;
 
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -13,6 +15,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TestngFramework {
+	
+	public static WebDriver dr;
 
 	@BeforeTest
 	public void before() {
@@ -20,6 +24,12 @@ public class TestngFramework {
 		System.out.println("before test is printed");
 		
 		System.out.println("init method");
+		
+		dr=new FirefoxDriver();
+		dr.get("http://flipkart.com");
+		dr.manage().window().maximize();
+		
+		
 	}
 
 	@AfterTest
